@@ -3,9 +3,9 @@
 use yii\db\Migration;
 
 /**
- * Class m190802_073946_closing_section
+ * Class m190807_092241_tests
  */
-class m190802_073946_closing_section extends Migration
+class m190807_092241_tests extends Migration
 {
     /**
      * {@inheritdoc}
@@ -20,7 +20,7 @@ class m190802_073946_closing_section extends Migration
      */
     public function safeDown()
     {
-        echo "m190802_073946_closing_section cannot be reverted.\n";
+        echo "m190807_092241_tests cannot be reverted.\n";
 
         return false;
     }
@@ -34,7 +34,7 @@ class m190802_073946_closing_section extends Migration
 
     public function down()
     {
-        echo "m190802_073946_closing_section cannot be reverted.\n";
+        echo "m190807_092241_tests cannot be reverted.\n";
 
         return false;
     }
