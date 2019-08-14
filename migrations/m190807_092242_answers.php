@@ -5,7 +5,7 @@ use yii\db\Migration;
 /**
  * Class m190807_092255_answers
  */
-class m190807_092255_answers extends Migration
+class m190807_092242_answers extends Migration
 {
     public function safeUp()
     {
@@ -18,7 +18,7 @@ class m190807_092255_answers extends Migration
         $this->createTable('{{%answers}}', [
             'id' => $this->primaryKey(),
             'test_id' => $this->integer()->notNull(),
-            'uestion_no' => $this->boolean()->notNull(),
+            'qestion_no' => $this->integer()->notNull(),
             'question_type' => $this->text(),
             'question_id' => $this->text(),
             'next_closing_section_id' => $this->integer()->notNull(),

@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m190802_073946_closing_sections extends Migration
+class m190807_092035_closing_sections extends Migration
 {
     public function safeUp()
     {
